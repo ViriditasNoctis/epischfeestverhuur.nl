@@ -81,3 +81,13 @@ p {
     color: #1abc9c;
 }
 
+footer {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    margin-top: auto; /* This pushes the footer to the bottom */
+    width: 100%;
+    font-size: 0.6em;
+    text-align: center;
+    position: fixed; /* Fixed position to stick at the bottom */
+    bottom: 0; /* Stick it to the bottom of the viewport */
+}
