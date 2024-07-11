@@ -3,7 +3,7 @@ body {
     position: relative;
     min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #eeeeee;
     color: #333;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ header {
     width: 100%;
     background-color: #31c3df;
     padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -48,7 +48,7 @@ nav ul li a:hover {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     margin-top: 50px; /* To create space below the navigation bar */
 }
 
@@ -114,11 +114,30 @@ footer {
 
 
 .instagram-button img {
-    width: 50px; /* Adjust the size as needed */
-    height: 50px; /* Adjust the size as needed */
+    position: absolute;
+    width: 19px; /* Adjust the size as needed */
+    height: 19px; /* Adjust the size as needed */
     transition: transform 0.3s;
 }
 
 .instagram-button img:hover {
     transform: scale(1.1); /* Makes the button slightly larger when hovered */
+}
+
+
+.instagram-button2 img {
+    position: absolute;
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    transition: transform 0.3s;
+}
+
+.instagram-button2 img:hover {
+    transform: scale(1.1); /* Makes the button slightly larger when hovered */
+}
+
+.pictures img {
+    width: 90%; /* Adjust the size as needed */
+    height: 90%; /* Adjust the size as needed */
+    
 }
