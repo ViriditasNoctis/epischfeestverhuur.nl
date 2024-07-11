@@ -1,5 +1,7 @@
 /* Importing the font */
 body {
+    position: relative;
+    min-height: 100vh; /* Ensure the body takes up the full height of the viewport */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #f5f5f5;
     color: #333;
@@ -12,7 +14,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #1abc9c;
+    background-color: #2d92ae;
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -59,13 +61,13 @@ nav ul li a:hover {
 h1 {
     font-size: 2.0em;
     margin-bottom: 20px;
-    color: #1abc9c;
+    color: #3bbee1;
 }
 
 h2 {
     font-size: 1.8em;
     margin-bottom: 20px;
-    color: #1abc9c;
+    color: #3bbee1;
 }
 
 p {
@@ -78,7 +80,7 @@ p {
     font-size: 1.8em;
     font-weight: bold;
     margin-top: 20px;
-    color: #1abc9c;
+    color: #3bbee1;
 }
 
 footer {
@@ -93,12 +95,30 @@ footer {
 }
 
 .mailto-link {
-    color: #1abc9c;
+    color: #3bbee1;
     text-decoration: none;
     font-size:1.8em;
 }
 
 .mailto-link2 {
-    color: #1abc9c;
+    color: #3bbee1;
     text-decoration: none;
+}
+
+.button-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px; /* Adjust this value to position the button 100px from the bottom */
+}
+
+
+.instagram-button img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    transition: transform 0.3s;
+}
+
+.instagram-button img:hover {
+    transform: scale(1.1); /* Makes the button slightly larger when hovered */
 }
